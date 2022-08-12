@@ -105,15 +105,37 @@ a:hover {
   border-color: transparent;
 }
 
-
 .btn-primary {
-    background-color: var(--color-primary);
-    color: var(--color-bg);
+  background-color: var(--color-primary);
+  color: var(--color-bg);
 }
 
-
 img {
-    display: block;
-    width: 100%;
-    object-fit: cover;
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* ========= Media Queries (Medium Devices) ========== */
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+}
+
+/* ========= Media Queries (Small Devices) ========== */
+
+@media screen and (min-width: 600p) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section > h2 {
+    margin-bottom: 2rem;
+  }
 }

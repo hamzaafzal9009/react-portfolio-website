@@ -3,7 +3,7 @@
 ## Available Scripts
 Clone the project and run 
 
-### npm install
+### `npm install`
 
 
 In the project directory, you can run:

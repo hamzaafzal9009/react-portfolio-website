@@ -118,7 +118,7 @@ img {
 
 /* ========= Media Queries (Medium Devices) ========== */
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
   }
@@ -130,7 +130,7 @@ img {
 
 /* ========= Media Queries (Small Devices) ========== */
 
-@media screen and (min-width: 600p) {
+@media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }

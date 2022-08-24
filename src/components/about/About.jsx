@@ -19,37 +19,34 @@ const About = () => {
         </div>
         <div className="about__content">
           <article className="about__cards">
-            <div className="about_card">
+            <div className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
               <small>5+ Years Working</small>
             </div>
-          </article>
-
-          <article className="about__cards">
-            <div className="about_card">
+            <div className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
               <small>200+ Worldwide</small>
             </div>
-          </article>
-          <article className="about__cards">
-            <div className="about_card">
+            <div className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
               <small>50+ Completed Projects</small>
             </div>
           </article>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            nostrum nemo possimus! Animi amet recusandae doloremque
+            reprehenderit tempora adipisci suscipit excepturi eius, nesciunt
+            vero debitis exercitationem maiores a, sit beatae.
+          </p>
+
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
-
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-          nostrum nemo possimus! Animi amet recusandae doloremque reprehenderit
-          tempora adipisci suscipit excepturi eius, nesciunt vero debitis
-          exercitationem maiores a, sit beatae.
-        </p>
-
-        <a href="#contact" className="btn btn-primary">Let's Talk</a>
       </div>
     </section>
   );

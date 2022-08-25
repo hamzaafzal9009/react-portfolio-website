@@ -27,7 +27,7 @@ const About = () => {
             <div className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>100+ Worldwide</small>
             </div>
             <div className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -37,10 +37,14 @@ const About = () => {
           </article>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-            nostrum nemo possimus! Animi amet recusandae doloremque
-            reprehenderit tempora adipisci suscipit excepturi eius, nesciunt
-            vero debitis exercitationem maiores a, sit beatae.
+            Hey there, my name is Hamza. I have been performing as a web
+            developer for 5 long years and am still in the process of gaining
+            more experiences through more years, with great efficiency. My
+            educational background processes a bachelor's degree in Computer
+            Science. I always handle my clients with a friend-like manner
+            keeping myself professional. I can solve problems analytically and
+            can face any complex situation with a motive of finding it with
+            total vividness.
           </p>
 
           <a href="#contact" className="btn btn-primary">

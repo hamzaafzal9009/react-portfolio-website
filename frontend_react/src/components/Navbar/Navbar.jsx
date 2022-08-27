@@ -1,9 +1,15 @@
-import React from 'react'
-import './navbar.scss'
+import React from "react";
+import "./navbar.scss";
+import { images } from "../../constants";
+
 const Navbar = () => {
   return (
-    <div>Navbar</div>
-  )
-}
+    <nav>
+      <div>
+        <img src={images.logo} alt="..." />
+      </div>
+    </nav>
+  );
+};
 
-export default Navbar
+export default Navbar;

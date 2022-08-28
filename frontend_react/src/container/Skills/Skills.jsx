@@ -1,9 +1,8 @@
-import React from 'react'
-import './skills.scss'
+import React from "react";
+import "./skills.scss";
+import { AppWrap } from "../../wrapper";
 const Skills = () => {
-  return (
-    <div>Skills</div>
-  )
-}
+  return <div>Skills</div>;
+};
 
-export default Skills
+export default AppWrap(Skills, "skills");

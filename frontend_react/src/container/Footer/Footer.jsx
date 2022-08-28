@@ -1,10 +1,9 @@
-import React from 'react'
-import './footer.scss'
+import React from "react";
+import { AppWrap } from "../../wrapper";
+import "./footer.scss";
 
 const Footer = () => {
-  return (
-    <div>Footer</div>
-  )
-}
+  return <div>Footer</div>;
+};
 
-export default Footer
+export default AppWrap(Footer, "contact");

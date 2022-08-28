@@ -1,9 +1,8 @@
-import React from 'react'
-import './testimonials.scss'
+import React from "react";
+import { AppWrap } from "../../wrapper";
+import "./testimonials.scss";
 const Testimonials = () => {
-  return (
-    <div>Testimonials</div>
-  )
-}
+  return <div>Testimonials</div>;
+};
 
-export default Testimonials
+export default AppWrap(Testimonials, "testimonial");

@@ -15,7 +15,6 @@ const Work = () => {
   useEffect(() => {
     const query = '*[_type == "works"]';
     client.fetch(query).then((data) => {
-      console.dir(data);
       setWorks(data);
       setFilterWork(data);
     });
@@ -43,7 +42,6 @@ const Work = () => {
       <div className="app__work-filter">
         {[
           "Web App",
-          "Mobile App",
           "Laravel",
           "Livewire",
           "Vue JS",

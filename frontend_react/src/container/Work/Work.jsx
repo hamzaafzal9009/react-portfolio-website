@@ -21,7 +21,19 @@ const Work = () => {
     });
   }, []);
 
-  const handleWorkFilter = (item) => {};
+  const handleWorkFilter = (item) => {
+    setActiveFilter(item);
+    setAnimateCart([{ y: 100, opacity: 0 }]);
+    setTimeout(() => {
+      setAnimateCart([{ y: 0, opacity: 1 }]);
+
+      if (item === "All") {
+        setFilterWork(works);
+      } else {
+        setFilterWork(works.filter((work) => work.tags.includes(item)));
+      }
+    }, 500);
+  };
 
   return (
     <>

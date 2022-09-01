@@ -27,6 +27,7 @@ import about04 from "../assets/about04.png";
 import profile from "../assets/profile.png";
 import circle from "../assets/circle.svg";
 import logo from "../assets/logo.png";
+import main from "../assets/main.png";
 
 import adidas from "../assets/adidas.png";
 import amazon from "../assets/amazon.png";
@@ -56,6 +57,7 @@ export default {
   redux,
   sass,
   typescript,
+  main,
   vue,
   about01,
   about02,
